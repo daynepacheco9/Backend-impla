@@ -6,7 +6,7 @@ app.use(cors({
     origin: '*'
 }));
 
-require('./startup/db')();
+// require('./startup/db')();
 require('./startup/routes')(app);
 
 
